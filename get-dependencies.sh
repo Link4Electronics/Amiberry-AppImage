@@ -6,10 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    gmp      \
-    mpfr     \
-    readline
+# pacman -Syu --noconfirm PACKAGESHERE
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
